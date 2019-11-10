@@ -9,11 +9,10 @@ import RxSwift
 import RxCocoa
 
 
-class ___VARIABLE_sceneName___ViewController: BaseUseCase<___VARIABLE_sceneName___ViewModel, ___VARIABLE_sceneName___Model>
+class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sceneName___ViewModel, ___VARIABLE_sceneName___Model>
 {
     // Connect IBOutlet
     // @IBOutlet weak var txtAccountName: UITextField!
-
     
     // Initialize variable :
     //var accountName: String
@@ -35,5 +34,10 @@ class ___VARIABLE_sceneName___ViewController: BaseUseCase<___VARIABLE_sceneName_
         
     }
     
+    
+    // Connect IBOutlet
+    //@IBAction func btnclick(_ sender: Any) {
+    //
+    //}
     
 }

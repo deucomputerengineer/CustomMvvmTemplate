@@ -10,9 +10,14 @@ import RxCocoa
 
 class ___VARIABLE_sceneName___ViewModel: BaseViewModel<___VARIABLE_sceneName___UseCase>
 {
+    private let disposeBag = DisposeBag()
     
-  func viewModel()
-  {
-    useCase.fetchData()
-  }
+    //Initiliaze Variable
+    //private let _myAccounts = BehaviorRelay<[Account]>(value: [])
+
+    
+    func getData()
+    {
+        useCase.fetchData()
+    }
 }
