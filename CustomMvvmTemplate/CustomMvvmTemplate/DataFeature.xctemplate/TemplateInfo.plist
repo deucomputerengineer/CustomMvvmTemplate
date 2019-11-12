@@ -34,20 +34,6 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___ViewController</string>
-			<key>Description</key>
-			<string>The view controller name</string>
-			<key>Identifier</key>
-			<string>viewControllerName</string>
-			<key>Name</key>
-			<string>View Controller Name:</string>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___UseCase</string>
 			<key>Description</key>
 			<string>The usecase name</string>
@@ -55,20 +41,6 @@
 			<string>useCaseName</string>
 			<key>Name</key>
 			<string>UseCase Name:</string>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___ViewModel</string>
-			<key>Description</key>
-			<string>The viewModel name</string>
-			<key>Identifier</key>
-			<string>viewModelName</string>
-			<key>Name</key>
-			<string>ViewModel Name:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
@@ -90,13 +62,13 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___Model</string>
+			<string>___VARIABLE_sceneName:identifier___Response</string>
 			<key>Description</key>
-			<string>The model name</string>
+			<string>The response name</string>
 			<key>Identifier</key>
-			<string>modelName</string>
+			<string>responseName</string>
 			<key>Name</key>
-			<string>Model Name</string>
+			<string>Response Name</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
@@ -104,25 +76,17 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>UIViewController</string>
+			<string>___VARIABLE_sceneName:identifier___Request</string>
 			<key>Description</key>
-			<string>What view controller class to subclass for the new scene</string>
-			<key>FallbackHeader</key>
-			<string>#import &lt;UIKit/UIKit.h&gt;</string>
+			<string>The request name</string>
 			<key>Identifier</key>
-			<string>viewControllerSubclass</string>
+			<string>requestName</string>
 			<key>Name</key>
-			<string>Subclass of:</string>
-			<key>NotPersisted</key>
-			<true/>
+			<string>Request Name:</string>
 			<key>Required</key>
-			<string>YES</string>
+			<true/>
 			<key>Type</key>
-			<string>class</string>
-			<key>Values</key>
-			<array>
-				<string>UIViewController</string>
-			</array>
+			<string>static</string>
 		</dict>
 	</array>
 	<key>Platforms</key>
