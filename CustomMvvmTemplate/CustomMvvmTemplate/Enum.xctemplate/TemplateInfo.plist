@@ -26,14 +26,6 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___</string>
-			<key>Identifier</key>
-			<string>productName</string>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___Enum</string>
 			<key>Description</key>
 			<string>The enum name</string>

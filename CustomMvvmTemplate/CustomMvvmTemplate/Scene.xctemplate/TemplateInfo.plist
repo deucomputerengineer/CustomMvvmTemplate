@@ -26,14 +26,6 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___</string>
-			<key>Identifier</key>
-			<string>productName</string>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___ViewController</string>
 			<key>Description</key>
 			<string>The view controller name</string>
@@ -41,20 +33,6 @@
 			<string>viewControllerName</string>
 			<key>Name</key>
 			<string>View Controller Name:</string>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___UseCase</string>
-			<key>Description</key>
-			<string>The usecase name</string>
-			<key>Identifier</key>
-			<string>useCaseName</string>
-			<key>Name</key>
-			<string>UseCase Name:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
