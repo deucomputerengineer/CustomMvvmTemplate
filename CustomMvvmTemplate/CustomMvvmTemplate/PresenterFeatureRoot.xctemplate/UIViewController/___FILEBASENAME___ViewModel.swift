@@ -8,7 +8,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class ___VARIABLE_sceneName___ViewModel: BaseViewModel<___VARIABLE_sceneName___UseCase>
+class ___VARIABLE_sceneName___ViewModel: BaseViewModel<___VARIABLE_useCaseName___UseCase,  ___VARIABLE_stateName___Model>
 {
     private let disposeBag = DisposeBag()
     

@@ -9,7 +9,7 @@ import RxSwift
 import RxCocoa
 
 
-class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sceneName___ViewModel, ___VARIABLE_sceneName___Model>
+class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sceneName___ViewModel>
 {
     // Connect IBOutlet
     // @IBOutlet weak var txtAccountName: UITextField!
