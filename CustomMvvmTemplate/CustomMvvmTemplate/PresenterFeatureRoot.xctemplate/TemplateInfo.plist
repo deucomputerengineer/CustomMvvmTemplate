@@ -12,11 +12,11 @@
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>The name of the scene to create</string>
+			<string>The name of the asdfa to create</string>
 			<key>Identifier</key>
 			<string>aasas</string>
 			<key>Name</key>
-			<string>New Scene Name:</string>
+			<string>New asasa Name:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
