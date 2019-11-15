@@ -12,20 +12,6 @@
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>The name of the asdfa to create</string>
-			<key>Identifier</key>
-			<string>aasas</string>
-			<key>Name</key>
-			<string>New asasa Name:</string>
-			<key>NotPersisted</key>
-			<true/>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>text</string>
-		</dict>
-		<dict>
-			<key>Description</key>
 			<string>The name of the useCase to create</string>
 			<key>Identtifier</key>
 			<string>useCaseName</string>
@@ -58,7 +44,7 @@
 			<key>Identifier</key>
 			<string>sceneName</string>
 			<key>Name</key>
-			<string>New Scene Name:</string>
+			<string>New Ekran Name:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
