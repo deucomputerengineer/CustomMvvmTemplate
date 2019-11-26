@@ -4,28 +4,35 @@
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 
+// MARK: Import (in alphabetical order)
 import UIKit
 import RxSwift
 import RxCocoa
 
-
 class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sceneName___ViewModel>
 {
-    // MARK: Outlets
+    // MARK: Outlets (grouping view types)
     
     
-    // MARK: Variables
+    // MARK: Variables (in alphabetical order)
     
     
     // MARK: VC Lifecycle Methods
-    
-    
-    override open func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         bindViewModel()
-        viewModel.fetchData()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    
     }
     
     override func didReceiveMemoryWarning(){
@@ -33,18 +40,15 @@ class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sce
         // Dispose of any resources that can be recreated.
     }
     
+    
     private func bindViewModel() {
-        
+        // Binding with viewmodel variables
     }
     
+    // MARK: Function Definitions
     
     // MARK: Outlet Actions
-
-    
-    // MARK: Function Definiton
-    
-    
-    // MARK: Extensions
-    
     
 }
+
+  // MARK: Extensions
