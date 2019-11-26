@@ -11,11 +11,14 @@ import RxCocoa
 
 class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sceneName___ViewModel>
 {
-    // Connect IBOutlet
-    // @IBOutlet weak var txtAccountName: UITextField!
+    // MARK: Outlets
     
-    // Initialize variable :
-    //var accountName: String
+    
+    // MARK: Variables
+    
+    
+    // MARK: VC Lifecycle Methods
+    
     
     override open func viewDidLoad() {
         super.viewDidLoad()
@@ -35,9 +38,13 @@ class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sce
     }
     
     
-    // Connect IBOutlet
-    //@IBAction func btnclick(_ sender: Any) {
-    //
-    //}
+    // MARK: Outlet Actions
+
+    
+    // MARK: Function Definiton
+    
+    
+    // MARK: Extensions
+    
     
 }
