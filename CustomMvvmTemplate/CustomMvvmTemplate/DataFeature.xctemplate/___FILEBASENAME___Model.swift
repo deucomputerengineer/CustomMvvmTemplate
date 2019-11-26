@@ -4,18 +4,21 @@
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 
-
+// MARK: Import (in alphabetical order)
 import UIKit
 
+class ___VARIABLE_sceneName___Model: BaseModel {
 
-class ___VARIABLE_sceneName___Model: BaseModel
-{
-
-    // Initialize variable
-    // var accountName: String?
-
+    // MARK: Variables (in alphabetical order)
+    
     required init() {
-           super.init()
-           stateId = Self.getStateId()
-       }
+        super.init()
+        stateId = Self.getStateId()
+    }
+    
+    required init(from decoder: Decoder) {
+        super.init()
+        stateId = Self.getStateId()
+        
+    }
 }

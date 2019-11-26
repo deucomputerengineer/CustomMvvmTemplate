@@ -9,8 +9,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sceneName___ViewModel>
-{
+class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sceneName___ViewModel> {
     // MARK: Outlets (grouping view types)
     
     
@@ -18,6 +17,7 @@ class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sce
     
     
     // MARK: VC Lifecycle Methods
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -43,6 +43,8 @@ class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sce
     
     private func bindViewModel() {
         // Binding with viewmodel variables
+        
+        viewmodel.getData()
     }
     
     // MARK: Function Definitions

@@ -4,15 +4,17 @@
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 
-
+// MARK: Import (in alphabetical order)
 import UIKit
 import RxSwift
 import RxCocoa
 
-
 class ___VARIABLE_sceneName___Repository: BaseRepository
 {
-
+    // MARK: Variables (in alphabetical order)
+    
+    // MARK: Network Call Methods
+    
     func fetchData() -> Observable<___VARIABLE_sceneName___Response> {
         
         let request = ___VARIABLE_sceneName___Request()

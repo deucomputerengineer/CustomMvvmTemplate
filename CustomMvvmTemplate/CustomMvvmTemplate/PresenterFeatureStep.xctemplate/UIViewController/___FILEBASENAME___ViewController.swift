@@ -4,25 +4,35 @@
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 
+// MARK: Import (in alphabetical order)
 import UIKit
 import RxSwift
 import RxCocoa
 
-
-class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sceneName___ViewModel, ___VARIABLE_sceneName___Model>
-{
-    // Connect IBOutlet
-    // @IBOutlet weak var txtAccountName: UITextField!
+class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sceneName___ViewModel, ___VARIABLE_sceneName___Model> {
+    // MARK: Outlets (grouping view types)
     
-    // Initialize variable :
-    //var accountName: String
     
-    override open func viewDidLoad() {
+    // MARK: Variables (in alphabetical order)
+    
+    
+    // MARK: VC Lifecycle Methods
+    
+    override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         bindViewModel()
-        viewModel.fetchData()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    
     }
     
     override func didReceiveMemoryWarning(){
@@ -30,14 +40,18 @@ class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sce
         // Dispose of any resources that can be recreated.
     }
     
+    
     private func bindViewModel() {
+        // Binding with viewmodel variables
         
+        viewmodel.getData()
     }
     
+    // MARK: Function Definitions
     
-    // Connect IBOutlet
-    //@IBAction func btnclick(_ sender: Any) {
-    //
-    //}
+    // MARK: Outlet Actions
     
 }
+
+  // MARK: Extensions
+

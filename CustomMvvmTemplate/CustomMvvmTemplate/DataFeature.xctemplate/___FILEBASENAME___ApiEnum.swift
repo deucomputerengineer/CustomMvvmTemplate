@@ -4,11 +4,12 @@
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 
+// MARK: Import (in alphabetical order)
 import UIKit
 
-
-
-enum ___VARIABLE_sceneName___ApiEnum: String {
+public enum ___VARIABLE_sceneName___ApiEnum: String {
+    
+    // MARK: Service endpoints
     
     case getAllAccountList = "Generic/GetCurrencyListWithoutSessions.ashx"
 }
