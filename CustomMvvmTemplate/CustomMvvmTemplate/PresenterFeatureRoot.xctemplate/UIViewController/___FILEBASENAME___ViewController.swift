@@ -5,18 +5,19 @@
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 
 // MARK: Import (in alphabetical order)
+import MobileCore
 import UIKit
-import RxSwift
 import RxCocoa
+import RxSwift
 
 class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sceneName___ViewModel> {
-    // MARK: Outlets (grouping view types)
+    // MARK: Outlets (Grouping view types)
     
     
     // MARK: Variables (in alphabetical order)
     
     
-    // MARK: VC Lifecycle Methods
+    // MARK: ViewController Lifecycle Methods
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,8 +44,12 @@ class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sce
     
     private func bindViewModel() {
         // Binding with viewmodel variables
-        
+       
+        /**
+         Example:
+
         viewmodel.getData()
+         */
     }
     
     // MARK: Function Definitions

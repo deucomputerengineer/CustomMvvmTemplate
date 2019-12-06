@@ -5,20 +5,14 @@
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 
 // MARK: Import (in alphabetical order)
-import UIKit
+import Foundation
 
-class ___VARIABLE_sceneName___Model: BaseModel {
+public class ___VARIABLE_sceneName___Model: Codable, BaseModelProtocol, ___VARIABLE_sceneName___RequestProtocol {
 
     // MARK: Variables (in alphabetical order)
-    
-    required init() {
-        super.init()
+    public var stateId: String?
+   
+    required public init() {
         stateId = Self.getStateId()
-    }
-    
-    required init(from decoder: Decoder) {
-        super.init()
-        stateId = Self.getStateId()
-        
     }
 }

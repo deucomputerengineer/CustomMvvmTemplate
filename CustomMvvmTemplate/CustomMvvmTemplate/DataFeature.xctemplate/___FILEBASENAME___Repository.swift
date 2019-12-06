@@ -6,11 +6,10 @@
 
 // MARK: Import (in alphabetical order)
 import UIKit
-import RxSwift
 import RxCocoa
+import RxSwift
 
-class ___VARIABLE_sceneName___Repository: BaseRepository
-{
+public class ___VARIABLE_sceneName___Repository: BaseRepository {
     // MARK: Variables (in alphabetical order)
     
     // MARK: Network Call Methods

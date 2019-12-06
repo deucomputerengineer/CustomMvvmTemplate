@@ -26,9 +26,15 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___</string>
+			<string>___VARIABLE_sceneName:identifier___Model</string>
+			<key>Description</key>
+			<string>The model name</string>
 			<key>Identifier</key>
-			<string>productName</string>
+			<string>modelName</string>
+			<key>Name</key>
+			<string>Model Name</string>
+			<key>Required</key>
+			<true/>
 			<key>Type</key>
 			<string>static</string>
 		</dict>
@@ -62,34 +68,6 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___Response</string>
-			<key>Description</key>
-			<string>The response name</string>
-			<key>Identifier</key>
-			<string>responseName</string>
-			<key>Name</key>
-			<string>Response Name</string>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___Model</string>
-			<key>Description</key>
-			<string>The model name</string>
-			<key>Identifier</key>
-			<string>modelName</string>
-			<key>Name</key>
-			<string>Model Name</string>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___Request</string>
 			<key>Description</key>
 			<string>The request name</string>
@@ -102,13 +80,55 @@
 			<key>Type</key>
 			<string>static</string>
 		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Response</string>
+			<key>Description</key>
+			<string>The response name</string>
+			<key>Identifier</key>
+			<string>responseName</string>
+			<key>Name</key>
+			<string>Response Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___StoryboardEnum</string>
+			<key>Description</key>
+			<string>The Storyboard enum name</string>
+			<key>Identifier</key>
+			<string>StoryboardEnumName</string>
+			<key>Name</key>
+			<string>Storyboard Enum Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___ApiEnum</string>
+			<key>Description</key>
+			<string>The Api enum name</string>
+			<key>Identifier</key>
+			<string>ApiEnumName</string>
+			<key>Name</key>
+			<string>Api Enum Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
 	</array>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>SortOrder</key>
-	<string>0</string>
+	<integer>1</integer>
 	<key>Summary</key>
 	<string>This generates a new scene using Uncle Bob&apos;s clean architecture.</string>
 </dict>

@@ -12,20 +12,6 @@
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>The name of the useCase to create</string>
-			<key>Identtifier</key>
-			<string>useCaseName</string>
-			<key>Name</key>
-			<string>New UseCase Name:</string>
-			<key>NotPersisted</key>
-			<true/>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>text</string>
-		</dict>
-		<dict>
-			<key>Description</key>
 			<string>The name of the scene to create</string>
 			<key>Identifier</key>
 			<string>sceneName</string>
@@ -39,18 +25,32 @@
 			<string>text</string>
 		</dict>
 		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___StoryboardEnum</string>
-			<key>Description</key>
-			<string>The enum name</string>
 			<key>Identifier</key>
-			<string>enumName</string>
-			<key>Name</key>
-			<string>Enum Name:</string>
+			<string>useCaseName</string>
 			<key>Required</key>
 			<true/>
+			<key>Name</key>
+			<string>New UseCase Name:</string>
+			<key>Description</key>
+			<string>The name of the usecase</string>
 			<key>Type</key>
-			<string>static</string>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>stateName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>New State Name:</string>
+			<key>Description</key>
+			<string>The name of the state to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>Default</key>
@@ -67,20 +67,6 @@
 			<string>static</string>
 		</dict>
 		<dict>
-			<key>Description</key>
-			<string>The name of the state to create</string>
-			<key>Identtifier</key>
-			<string>stateName</string>
-			<key>Name</key>
-			<string>New State Name:</string>
-			<key>NotPersisted</key>
-			<true/>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>text</string>
-		</dict>
-		<dict>
 			<key>Default</key>
 			<string>___VARIABLE_sceneName:identifier___ViewModel</string>
 			<key>Description</key>
@@ -89,6 +75,34 @@
 			<string>viewModelName</string>
 			<key>Name</key>
 			<string>ViewModel Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_useCaseName:identifier___UseCase</string>
+			<key>Description</key>
+			<string>The useCase name</string>
+			<key>Identifier</key>
+			<string>useCaseNameValue</string>
+			<key>Name</key>
+			<string>UseCase Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_stateName:identifier___Model</string>
+			<key>Description</key>
+			<string>The state name</string>
+			<key>Identifier</key>
+			<string>stateNameValue</string>
+			<key>Name</key>
+			<string>State Name:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
