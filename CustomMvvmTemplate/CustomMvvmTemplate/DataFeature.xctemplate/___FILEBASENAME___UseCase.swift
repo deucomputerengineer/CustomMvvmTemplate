@@ -9,7 +9,7 @@ import UIKit
 import RxCocoa
 import RxSwift
 
-public class ___VARIABLE_sceneName___UseCase: BaseUseCase<___VARIABLE_sceneName___Repository> {
+open class ___VARIABLE_sceneName___UseCase: BaseUseCase<___VARIABLE_sceneName___Repository> {
   
     // MARK: Variables (in alphabetical order)
     
@@ -17,10 +17,10 @@ public class ___VARIABLE_sceneName___UseCase: BaseUseCase<___VARIABLE_sceneName_
     
     /**
      Example service request
-     
+     */
     public func get___VARIABLE_sceneName___() -> Observable<[___VARIABLE_sceneName___Response]> {
             return repository.fetch___VARIABLE_sceneName___()
         }
-     */
+     
    
 }

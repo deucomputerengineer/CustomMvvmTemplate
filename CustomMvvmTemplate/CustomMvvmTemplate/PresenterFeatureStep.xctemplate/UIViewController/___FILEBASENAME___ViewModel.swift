@@ -12,12 +12,6 @@ import RxSwift
 
 class ___VARIABLE_sceneName___ViewModel: BaseViewModel<___VARIABLE_useCaseName___UseCase, ___VARIABLE_stateName___Model> {
    
-    /**
-     Example:
-     
-    private let disposeBag = DisposeBag()
-     */
-    
     // MARK: Variables
     // Each behaviourRelay variable must be converted to observable variable
     
@@ -25,8 +19,8 @@ class ___VARIABLE_sceneName___ViewModel: BaseViewModel<___VARIABLE_useCaseName__
     func getData() {
        /**
          Example:
-         
-        useCase.fetchData()
-       */
+        */
+        useCase.get___VARIABLE_useCaseName___()
+       
     }
 }

@@ -47,10 +47,10 @@ class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sce
         // Binding with viewmodel variables
        
         /**
-         Example:
-
-        viewmodel.getData()
+         Example
          */
+        viewModel.getData()
+         
     }
     
     // MARK: Function Definitions

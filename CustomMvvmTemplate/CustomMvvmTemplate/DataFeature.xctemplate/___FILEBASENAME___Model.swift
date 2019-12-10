@@ -7,7 +7,7 @@
 // MARK: Import (in alphabetical order)
 import Foundation
 
-public class ___VARIABLE_sceneName___Model: Codable, BaseModelProtocol, ___VARIABLE_sceneName___RequestProtocol {
+open class ___VARIABLE_sceneName___Model: Codable, BaseModelProtocol, ___VARIABLE_sceneName___RequestProtocol {
 
     // MARK: Variables (in alphabetical order)
     public var stateId: String?

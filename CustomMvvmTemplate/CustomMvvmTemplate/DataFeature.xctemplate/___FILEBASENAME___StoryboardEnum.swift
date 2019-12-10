@@ -9,7 +9,7 @@ import Foundation
 
 public enum ___VARIABLE_sceneName___StoryboardEnum: String {
     // MARK: StoryboardID Definitions
-    
+     case myExample = "MyExample"
     /**
      example:
      

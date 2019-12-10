@@ -19,7 +19,7 @@ public protocol ___VARIABLE_sceneName___RequestProtocol: BaseRequest {
      */
 }
 
-public class ___VARIABLE_sceneName___Request: ___VARIABLE_sceneName___RequestProtocol {
+open class ___VARIABLE_sceneName___Request: ___VARIABLE_sceneName___RequestProtocol {
        
     // MARK: Variables (in alphabetical order)
    

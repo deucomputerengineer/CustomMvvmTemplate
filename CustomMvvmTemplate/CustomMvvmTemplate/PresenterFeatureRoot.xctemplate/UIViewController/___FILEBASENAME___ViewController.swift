@@ -47,9 +47,9 @@ class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sce
        
         /**
          Example:
-
-        viewmodel.getData()
          */
+        viewModel.getData()
+         
     }
     
     // MARK: Function Definitions

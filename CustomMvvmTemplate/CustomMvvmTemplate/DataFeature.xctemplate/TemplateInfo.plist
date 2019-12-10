@@ -8,6 +8,8 @@
 	<string>This generates a new scene using Uncle Bob&apos;s clean architecture. It consists of the view controller, interactor, presenter, and router. You can then create individual workers to supplement the interactor.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>SortOrder</key>
+	<string>1</string>
 	<key>Options</key>
 	<array>
 		<dict>
@@ -127,8 +129,6 @@
 	<array>
 		<string>com.apple.platform.iphoneos</string>
 	</array>
-	<key>SortOrder</key>
-	<integer>1</integer>
 	<key>Summary</key>
 	<string>This generates a new scene using Uncle Bob&apos;s clean architecture.</string>
 </dict>

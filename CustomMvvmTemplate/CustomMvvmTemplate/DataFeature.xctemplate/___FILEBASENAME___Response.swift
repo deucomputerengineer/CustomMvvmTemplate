@@ -7,7 +7,7 @@
 // MARK: Import (in alphabetical order)
 import Foundation
 
-class ___VARIABLE_sceneName___Response: Codable {
+open class ___VARIABLE_sceneName___Response: Codable {
     
     // MARK: Variables (in alphabetical order)
 }

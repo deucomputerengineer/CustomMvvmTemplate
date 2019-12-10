@@ -15,19 +15,13 @@ class ___VARIABLE_sceneName___ViewModel: BaseViewModel<___VARIABLE_useCaseName__
     // MARK: Variables
     // Each behaviourRelay variable must be converted to observable variable
   
-    /**
-     Example:
-     
-    private let disposeBag = DisposeBag()
-     */
-
     // MARK: Usecase call methods
     func getData() {
         
         /**
           Example:
-          
-         useCase.fetchData()
-        */
+         */
+         useCase.get___VARIABLE_useCaseName___()
+        
     }
 }

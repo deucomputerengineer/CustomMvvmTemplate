@@ -13,5 +13,5 @@ public enum ___VARIABLE_sceneName___ApiEnum: String {
     /**
      example endpoint's naming
      */
-    case getAllAccountList = "Generic/GetCurrencyListWithoutSessions.ashx"
+    case getService = "...ashx"
 }
