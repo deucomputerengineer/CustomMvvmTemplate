@@ -3,11 +3,11 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
+//  Copyright © ___YEAR___ IBTECH. All rights reserved.
+//
 
 // MARK: Import (in alphabetical order)
-import Foundation
 
 open class ___VARIABLE_sceneName___Response: Codable {
     
-    // MARK: Variables (in alphabetical order)
 }
