@@ -3,13 +3,14 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
+//  Copyright © ___YEAR___ IBTECH. All rights reserved.
 //
 
 // MARK: Import (in alphabetical order)
 import MobileCore
-import UIKit
 import RxCocoa
 import RxSwift
+import UIKit
 
 class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sceneName___ViewModel> {
     // MARK: Outlets (grouping view types)
@@ -23,8 +24,9 @@ class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sce
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        initViews()
         bindViewModel()
+        viewModel.getData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -36,27 +38,20 @@ class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sce
         super.viewWillAppear(animated)
     
     }
-    
-    override func didReceiveMemoryWarning(){
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
+  
     private func bindViewModel() {
         // Binding with viewmodel variables
-       
-        /**
-         Example
-         */
-        viewModel.getData()
-         
+        
     }
     
     // MARK: Function Definitions
+    private func initViews() {
+        prepareHeader()
+    }
     
-    // MARK: Outlet Actions
-    
+    private func prepareHeader() {
+        //TODO: Prepare Header
+    }
 }
 
   // MARK: Extensions
