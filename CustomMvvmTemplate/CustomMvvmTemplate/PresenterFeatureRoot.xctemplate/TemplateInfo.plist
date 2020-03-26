@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>MyScene</string>
+	<string>___VARIABLE_sceneName:identifier___</string>
 	<key>Description</key>
 	<string>This generates a new worker to perform your specific business logic.</string>
 	<key>Kind</key>
