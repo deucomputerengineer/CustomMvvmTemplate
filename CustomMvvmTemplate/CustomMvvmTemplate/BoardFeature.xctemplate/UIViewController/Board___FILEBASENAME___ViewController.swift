@@ -34,7 +34,7 @@ open class Board___VARIABLE_sceneName___ViewController: BoardPartViewController 
     }
     
     override public func viewWillDisappear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+        super.viewWillDisappear(animated)
     
     }
     

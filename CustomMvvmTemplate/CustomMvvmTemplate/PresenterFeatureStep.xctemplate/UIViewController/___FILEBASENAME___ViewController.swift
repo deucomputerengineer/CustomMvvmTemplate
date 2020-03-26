@@ -35,7 +35,7 @@ class ___VARIABLE_sceneName___ViewController: BaseViewController<___VARIABLE_sce
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+        super.viewWillDisappear(animated)
     
     }
   
