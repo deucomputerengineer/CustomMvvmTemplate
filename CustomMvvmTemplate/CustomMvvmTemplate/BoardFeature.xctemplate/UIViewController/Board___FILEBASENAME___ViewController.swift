@@ -12,12 +12,7 @@ import RxCocoa
 import RxSwift
 import UIKit
 
-/**
-- When you use `BoardPartViewController`, you must add two `ControlViews` to your .xib file with `ContainerView > ContentView` layout.
-- You must add your content in this `ContentView`.
-- `TitleBar`, `ErrorView` and `SkeletonLoading` are created according to this layout.
-*/
-
+/// - Create new board files from `New File` > `CustomMvvmTemplate` > `BoardFeature`
 open class Board___VARIABLE_sceneName___ViewController: BoardPartViewController {
     // MARK: Outlets (grouping view types)
     
