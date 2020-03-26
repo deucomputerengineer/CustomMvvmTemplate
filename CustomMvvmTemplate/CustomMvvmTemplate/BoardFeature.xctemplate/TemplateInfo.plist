@@ -54,7 +54,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___ViewController</string>
+			<string>Board___VARIABLE_sceneName:identifier___ViewController</string>
 			<key>Description</key>
 			<string>The view controller name</string>
 			<key>Identifier</key>
@@ -68,7 +68,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___ViewModel</string>
+			<string>Board___VARIABLE_sceneName:identifier___ViewModel</string>
 			<key>Description</key>
 			<string>The viewModel name</string>
 			<key>Identifier</key>
@@ -82,21 +82,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_useCaseName:identifier___UseCase</string>
-			<key>Description</key>
-			<string>The useCase name</string>
-			<key>Identifier</key>
-			<string>useCaseNameValue</string>
-			<key>Name</key>
-			<string>UseCase Name:</string>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_stateName:identifier___Model</string>
+			<string>Board___VARIABLE_stateName:identifier___Model</string>
 			<key>Description</key>
 			<string>The state name</string>
 			<key>Identifier</key>
