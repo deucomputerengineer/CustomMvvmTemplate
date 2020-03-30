@@ -12,9 +12,4 @@ open class ___VARIABLE_sceneName___Model: BaseModel, Codable {
     // MARK: Request Variables
     
     // MARK: State Values
- 
-    required public init() {
-        super.init()
-        stateId = Self.getStateId()
-    }
 }
