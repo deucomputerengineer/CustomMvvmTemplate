@@ -13,8 +13,7 @@ class Board___VARIABLE_sceneName___ViewModel: BaseViewModel<___VARIABLE_useCaseN
    
     // MARK: Variables
     
-    // Each behaviourRelay variable must be converted to observable variable
-    
+   
     // MARK: UseCase call methods
     func getData() {
        /**
